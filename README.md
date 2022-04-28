@@ -1,2 +1,2 @@
 # GitHub-Repo-Downloader
-Program to download public GitHub repo and store that repo to the local storage.
+![](https://opengraph.githubassets.com/1/patelka2211/GitHub-Repo-Downloader)
