@@ -1,5 +1,5 @@
 # GitHub-Repo-Downloader
-![](https://opengraph.githubassets.com/1/patelka2211/GitHub-Repo-Downloader)
+![](https://opengraph.githubassets.com/40d3dc2/patelka2211/GitHub-Repo-Downloader)
 
 # Input
 Run [DOWNLOAD_REQUIRED_MODULES.py](./DOWNLOAD_REQUIRED_MODULES.py "DOWNLOAD_REQUIRED_MODULES.py") file to download required modules.
