@@ -14,4 +14,4 @@ curl "https://raw.githubusercontent.com/patelka2211/GitHub-Repo-Downloader/main/
 
 py "GitReD_temp_installer.py" $1 $2 $3 $4
 
-# rm "GitReD_temp_installer.py"
+rm "GitReD_temp_installer.py"
