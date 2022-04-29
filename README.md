@@ -60,3 +60,25 @@ root (If not specified to make directory.)
 •
 | - repository_fileN.ext
 ```
+
+
+# Download using terminal using CURL
+
+```sh
+# First argv is owner name
+# For exmaple github
+
+# Second argv is repo name
+# For exmaple linguist
+
+# Third argv is to save inside folder or not
+# If yes then True otherwise False
+# DEFAULT IS True
+
+# Fourth argv is to keep .zip file of repo or not
+# If yes then True otherwise False
+# DEFAULT IS False
+
+# For example you want to download gihub/linguist repo
+curl https://raw.githubusercontent.com/patelka2211/GitHub-Repo-Downloader/main/GitReD.sh | sh "github" "linguist" "True" "False"
+```
