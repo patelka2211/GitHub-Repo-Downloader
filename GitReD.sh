@@ -10,7 +10,7 @@
 # Fourth argv is to keep .zip file of repo or not
 # If yes then True otherwise False
 
-curl "https://raw.githubusercontent.com/patelka2211/GitHub-Repo-Downloader/main/GitReD.py" >> "GitReD_temp_installer.py"
+curl "https://raw.githubusercontent.com/patelka2211/GitHub-Repo-Downloader/main/GitReD.py" > "GitReD_temp_installer.py"
 
 py "GitReD_temp_installer.py" $1 $2 $3 $4
 
