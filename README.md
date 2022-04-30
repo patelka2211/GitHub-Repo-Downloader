@@ -1,5 +1,17 @@
 # GitHub-Repo-Downloader
-![](https://opengraph.githubassets.com/40d3dc2/patelka2211/GitHub-Repo-Downloader)
+<div style="width: 100%;text-align: center;">
+    <div title="patelka2211/GitHub-Repo-Downloader on GitHub" style="display: flex;flex-direction: column;align-items: center;justify-content: space-around; max-width: 100vw; margin: auto; padding: 0.6vh;border: 1px solid #b9bbbe99; border-radius: 1.6vh;">
+        <img src="https://opengraph.githubassets.com/126f5rfsv12/patelka2211/GitHub-Repo-Downloader" alt="" style="width: 100%;height: 100%;border-radius: 1vh;">
+        <div style="margin: 5px auto;color: #58a6ff;">
+            github.com /
+            <code>
+            <a href="https://github.com/patelka2211/GitHub-Repo-Downloader" title="patelka2211/GitHub-Repo-Downloader on GitHub" target="blank_" style="cursor: pointer;">
+                <a href="https://github.com/patelka2211" title="patelka2211 on GitHub" style="text-decoration: none;color: #58a6ff;" target="blank_">patelka2211</a> / <a href="https://github.com/patelka2211/GitHub-Repo-Downloader" title="patelka2211/GitHub-Repo-Downloader on GitHub" style="text-decoration: none;color: #58a6ff;" target="blank_">GitHub-Repo-Downloader</a>
+            </a>
+        </code>
+        </div>
+    </div>
+</div>
 
 # Input
 Run [DOWNLOAD_REQUIRED_MODULES.py](./DOWNLOAD_REQUIRED_MODULES.py "DOWNLOAD_REQUIRED_MODULES.py") file to download required modules.
@@ -62,23 +74,20 @@ root (If not specified to make directory.)
 ```
 
 
-# Download using terminal using CURL
+# Download using shell script
 
 ```sh
-# First argv is owner name
-# For exmaple github
+# For example
+owner="patelka2211" # The owner name of repo which you want to download.
+repo="GitHub-Repo-Downloader" # The repo name.
+save_in_folder="True" # If True then repo will be saved in a new folder in cwd, else repo will directly saved in cwd.
+save_zip="True" # If True then .zip file of the repo will be saved in cwd, else .zip file of repo will not be saved.
 
-# Second argv is repo name
-# For exmaple linguist
+curl "https://raw.githubusercontent.com/patelka2211/GitHub-Repo-Downloader/main/GitReD.py" > "GitReD_temp_installer.py"
 
-# Third argv is to save inside folder or not
-# If yes then True otherwise False
-# DEFAULT IS True
+py "GitReD_temp_installer.py" $owner $repo $save_in_folder $save_zip &
 
-# Fourth argv is to keep .zip file of repo or not
-# If yes then True otherwise False
-# DEFAULT IS False
+wait $!
 
-# For example you want to download gihub/linguist repo
-curl https://raw.githubusercontent.com/patelka2211/GitHub-Repo-Downloader/main/GitReD.sh | sh "github" "linguist" "True" "False"
+rm "GitReD_temp_installer.py"
 ```
