@@ -103,7 +103,10 @@ rm "GitReD_temp_installer.py"
 
 [![GitHub](https://img.shields.io/github/license/patelka2211/GitHub-Repo-Downloader?color=%2359c7fa)](./LICENSE)
 
-
-<p style="text-align: center;">&copy; 2022
-<a href="https://github.com/patelka2211">Kartavya Patel</a>
-</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; align-items: center;">
+&copy; 2022
+<a href="https://github.com/patelka2211" title="Kartavya Patel" style="margin-left: 5px;">Kartavya Patel</a>
+</div>
+<a href="https://github.com/patelka2211" title="Kartavya Patel"><img src="https://avatars.githubusercontent.com/u/82671701?v=4" width="60px"/></a>
+</div>
