@@ -91,3 +91,19 @@ wait $!
 
 rm "GitReD_temp_installer.py"
 ```
+
+# About languages
+
+|Total used languages|Top language|
+|:--:|:--:|
+|![GitHub language count](https://img.shields.io/github/languages/count/patelka2211/GitHub-Repo-Downloader)|![GitHub top language](https://img.shields.io/github/languages/top/patelka2211/GitHub-Repo-Downloader)|
+
+
+# License
+
+[![GitHub](https://img.shields.io/github/license/patelka2211/GitHub-Repo-Downloader?color=%2359c7fa)](./LICENSE)
+
+
+<p style="text-align: center;">&copy; 2022
+<a href="https://github.com/patelka2211">Kartavya Patel</a>
+</p>
